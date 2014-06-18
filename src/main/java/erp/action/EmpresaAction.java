@@ -19,4 +19,10 @@ public class EmpresaAction extends ActionSupport {
 	public void setEmpresa(Empresa empresa) {
 		this.empresa = empresa;  
 	}
+	
+	public void validate() {
+		if(empresa.getCodigo().length() == 0) {
+			addFieldError("empresa.codigo", "Código requerido");
+		}
+	}
 }

@@ -6,6 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Registro</title>
+<s:head/>
 </head>
 <body>
 	<h3>Registro empresa</h3>
